@@ -1,5 +1,5 @@
 package busresevation;
-
+import java.util.*;
 public class Bus {
     private int bus_no;
     private boolean ac;
