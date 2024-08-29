@@ -18,7 +18,7 @@ public class Bus_Reservation {
             if (user_opt==1)
             {
                 Booking b1=new Booking();
-                if (b1.isavalable(bookings,buses))
+                if (b1.isavailable(bookings,buses))
                 {
                     bookings.add(b1);
                     System.out.println("Successfully Booked");
