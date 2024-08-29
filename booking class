@@ -26,7 +26,7 @@ public class Booking {
         }
 
     }
-    public boolean isavalable(ArrayList<Booking> bookings,ArrayList<Bus> buses)
+    public boolean isavailable(ArrayList<Booking> bookings,ArrayList<Bus> buses)
     {
         int capacity=0;
         for (Bus bus : buses)
